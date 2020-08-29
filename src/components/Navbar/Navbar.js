@@ -7,7 +7,15 @@ function Nabar() {
             <div className='flex-2 flex--2'>
                 <img src='https://a.slack-edge.com/4a5c4/marketing/img/icons/icon_slack.svg' alt='slack icon'/>
                 <ul className='flex-2'>
-                    <li>Why Slack?</li>
+                    <li className='li--1'>Why Slack?</li>
+                    <div className='why-hover'>
+                        <ul>
+                            <li>Features</li>
+                            <li>How it replaces email</li>
+                            <li>Security</li>
+                            <li>Customers</li>
+                        </ul>
+                    </div>
                     <li>Solutions</li>
                     <li>Resources</li>
                     <li>enterprises</li>
