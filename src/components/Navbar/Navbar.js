@@ -9,13 +9,20 @@ function Nabar() {
                     <img src='https://a.slack-edge.com/4a5c4/marketing/img/icons/icon_slack.svg' alt='slack icon'/>
                     <h2>X</h2>
                 </div>
-                <ul>
-                    <li>Why Slack?</li>
-                    <li>Solution</li>
-                    <li>Resources</li>
-                    <li>Enterprise</li>
-                    <li>Pricing</li> 
-                </ul>
+                <div className='flex flex-column'>
+                    <ul>
+                        <li>Why Slack?</li>
+                        <li>Solution</li>
+                        <li>Resources</li>
+                        <li>Enterprise</li>
+                        <li>Pricing</li> 
+                    </ul> 
+                    <div className='button-grid'>
+                        <button>Signin</button>
+                        <button>Download slack</button>
+                    </div>
+                </div>
+                
             </div>
             <div className='flex-2 flex--2'>
                 <img src='https://a.slack-edge.com/4a5c4/marketing/img/icons/icon_slack.svg' alt='slack icon'/>
