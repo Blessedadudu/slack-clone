@@ -120,15 +120,19 @@
         background-color: teal;
         position: fixed;
         width: 100vw;
+        z-index: 1;
         height: 100vh;
-        
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
     }
     
 }
 
 @media only screen and (max-width: 1085px) {
     .Navbar {
-        // padding: 1rem 2%;
+        padding: 1rem 2%;
         background: rgb(194, 192, 192);
         
         .desktop-nav {
@@ -141,11 +145,28 @@
             padding-right: 2%;
         }
 
+        img {
+            width: 125px;
+            margin: 0 2rem 0 2%;
+        }
+
         .toggle-nav {
             background-color: teal;
-            position: fixed;
-            width: 100vw;
-            height: 100vh;
+            position: absolute;
+            padding: 2rem 0;
+            // width: 100vw;
+
+            ul {
+                padding: 5rem 0;
+
+                li {
+                    padding: 1rem 2rem 2rem;
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 23px;
+                    color:#1d1d1d;
+                }
+            }
         }
     }
 }

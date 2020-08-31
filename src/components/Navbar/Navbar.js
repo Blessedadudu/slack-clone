@@ -5,7 +5,17 @@ function Nabar() {
     return (
         <div className='Navbar flex-2'>
             <div className='toggle-nav'>
-                <h1>hello</h1>
+                <div className='flex-2'>
+                    <img src='https://a.slack-edge.com/4a5c4/marketing/img/icons/icon_slack.svg' alt='slack icon'/>
+                    <h2>X</h2>
+                </div>
+                <ul>
+                    <li>Why Slack?</li>
+                    <li>Solution</li>
+                    <li>Resources</li>
+                    <li>Enterprise</li>
+                    <li>Pricing</li> 
+                </ul>
             </div>
             <div className='flex-2 flex--2'>
                 <img src='https://a.slack-edge.com/4a5c4/marketing/img/icons/icon_slack.svg' alt='slack icon'/>
