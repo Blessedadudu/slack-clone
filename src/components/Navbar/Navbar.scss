@@ -1,13 +1,13 @@
 .Navbar {
     background: rgb(255, 255, 255);
-    padding: 1rem 0%;
+    padding: 1rem 10%;
     justify-content: space-between;
     color: #1d1d1d;
     white-space: nowrap;
 
     img {
         width: 125px;
-        margin: 0 2rem 0 10%;
+        margin: 0 2rem 0 0;
     }
 
     li {
@@ -16,7 +16,7 @@
     }
 
     .contact {
-        padding: 0 10% 0 0;
+        padding: 0;
 
         button {
             background-color: #611f69;
@@ -155,7 +155,7 @@
             background-color: rgb(253, 253, 253);
             position: absolute;
             padding: 2rem 0;
-            display: inline-flex;
+            // display: inline-flex;
 
             .flex--icon {
                 justify-content: space-between;

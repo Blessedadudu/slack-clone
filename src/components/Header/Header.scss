@@ -1,3 +1,59 @@
 .header {
-    color: teal;
+    // color: teal;
+    padding: 5rem 10% 0;
+    color: #1d1d1d;
+    background-color: #f6f0e8;
+
+    &--flex {
+        display: grid;
+        grid-column-gap: 5%;
+        grid-template-columns: 35% 60%;
+        align-items: center;
+    }
+
+    .welcome {
+        h1 {
+            font-size: 4rem;
+            font-weight: 700;
+            line-height: 1.0625;
+            letter-spacing: -1.5px;
+            margin-bottom: 1rem;
+            max-width: 7em;
+        }
+
+        p {
+            max-width: 27rem;
+            font-weight: 400;
+            line-height: 1.333;
+            letter-spacing: -.2px;
+            margin: 0 0 1rem;
+            font-size: 1.25rem;
+        }
+
+        button {
+            appearance: none;
+            background-color: #611f69;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            border-radius: 4px;
+            text-align: center;
+            font-weight: 700;
+            line-height: 1.28571429;
+            letter-spacing: .8px;
+            font-size: .875rem;
+            text-transform: uppercase;
+            text-decoration: none;
+            padding: 19px 40px 20px;
+            display: block;
+        }
+    }
+
+    .image {
+        video {
+            width: 100%;
+            pointer-events: none;
+        }
+    }
+    
 }
