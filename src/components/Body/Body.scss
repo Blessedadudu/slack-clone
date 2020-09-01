@@ -1,8 +1,7 @@
 .body {
     &-heading {
         text-align: center;
-        padding: 1rem 0 2rem;
-        margin: 4rem;
+        padding: 1rem 0 1rem;
 
         h1 {
             font-size: 3.125rem;
@@ -16,10 +15,10 @@
         p {
             display: inline-block;
             padding: 2rem 0 0;
-            font-weight: 400;
+            font-weight: 500;
             line-height: 1.44444444;
             letter-spacing: normal;
-            font-size: 1.125rem;
+            font-size: 1.1rem;
             color: #1264a3;
             cursor: pointer;
         }
@@ -28,7 +27,7 @@
             padding: 0 0 0 .5rem;
         }
         .arrow {
-            transform: scale(1.2, 1.2) translateY(3px);
+            transform: scale(1.1, 1.1) translateY(4px);
             color: #1264a3;
             font-weight: 100;
             font-size: 20px;
@@ -37,11 +36,26 @@
         .stories {
             margin: 0 auto;
             display: inline-block;
-            transition: all .3s ease-in-out;
             backface-visibility: hidden;
+            position: relative;
+
+            &::after {
+                content: " ";
+                position: absolute;
+                left: 0;
+                top: 57px;
+                width: 1%;
+                border-bottom: .13rem solid #1264a3;
+                transition: all .3s ease-in-out;
+                visibility: hidden;
+            }
             
             &:hover {
-                border-bottom: 2px solid #1264a3;
+
+                &::after {
+                    width: 100%;
+                    visibility: visible;
+                }
             }
         }
 
@@ -50,6 +64,7 @@
 
     .customer {
         padding: 0 7% 4rem;
+        margin: 4rem 0  0;
         
         h2 {
             font-weight: 300;

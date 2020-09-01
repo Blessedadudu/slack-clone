@@ -10,7 +10,6 @@ function Body() {
                 <div className='stories'>
                    <p>See all customer stories</p><span><BsArrowRight className='arrow'/> </span> 
                 </div>
-                
             </div>
             <div className='flex-2 customer'>
                 <div>
