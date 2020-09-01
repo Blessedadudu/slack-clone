@@ -3,6 +3,7 @@
     padding: 5rem 10% 0;
     color: #1d1d1d;
     background-color: #f6f0e8;
+    margin-bottom: 14rem;
 
     &--flex {
         display: grid;
@@ -49,10 +50,34 @@
         }
     }
 
-    .image {
+    &--flex-2 {
+        grid-column-gap: 6%;
+        grid-template-columns: 57% 37%;
+        position: relative;
+        padding: 5rem 0;
+
+        .welcome {
+            button {
+                color: #611f69;
+                background-color: transparent;
+                border: 2px solid #611f69;
+            } 
+        }
+        
+    }
+
+    .video {
         video {
             width: 100%;
-            pointer-events: none;
+            // pointer-events: none;
+        }
+
+        &-2 {
+            video {
+                position: absolute;
+                width: 55%;
+                bottom: -5rem;
+            }
         }
     }
     
