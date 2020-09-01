@@ -7,7 +7,10 @@ function Body() {
         <div className='body'>
             <div className='body-heading'>
                 <h1>Over 750,000 companies use Slack to get work done</h1>
-                <p>See all customer stories</p><span><BsArrowRight/> </span>
+                <div className='stories'>
+                   <p>See all customer stories</p><span><BsArrowRight className='arrow'/> </span> 
+                </div>
+                
             </div>
             <div className='flex-2 customer'>
                 <div>
