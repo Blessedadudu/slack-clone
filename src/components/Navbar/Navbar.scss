@@ -117,7 +117,6 @@
     }
 
     .toggle-nav {
-        background-color: teal;
         position: fixed;
         width: 100vw;
         z-index: 1;
@@ -126,11 +125,12 @@
         bottom: 0;
         left: 0;
         right: 0;
+        display: none;
     }
     
 }
 
-@media only screen and (max-width: 1085px) {
+@media only screen and (max-width: 1200px) {
     .Navbar {
         padding: 1rem 2%;
         background: rgb(194, 192, 192);
@@ -152,9 +152,19 @@
 
         .toggle-nav {
             background-color: teal;
+            background-color: rgb(253, 253, 253);
             position: absolute;
             padding: 2rem 0;
-            // width: 100vw;
+            display: inline-flex;
+
+            .flex--icon {
+                justify-content: space-between;
+                flex: 0 0 1vh;
+
+                &-2 {
+                    flex: 1;
+                }
+            }
 
             ul {
                 padding: 5rem 0;
@@ -174,7 +184,8 @@
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
         grid-gap: 20px;
-        margin: 0 1rem;
+        margin: auto 1rem 0;
+
 
         button {
             border: none;

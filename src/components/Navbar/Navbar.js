@@ -4,12 +4,12 @@ import './Navbar.scss'
 function Nabar() {
     return (
         <div className='Navbar flex-2'>
-            <div className='toggle-nav'>
-                <div className='flex-2'>
+            <div className='toggle-nav flex flex-column'>
+                <div className='flex-2 flex--icon'>
                     <img src='https://a.slack-edge.com/4a5c4/marketing/img/icons/icon_slack.svg' alt='slack icon'/>
                     <h2>X</h2>
                 </div>
-                <div className='flex flex-column'>
+                <div className='flex flex-column flex--icon-2'>
                     <ul>
                         <li>Why Slack?</li>
                         <li>Solution</li>
