@@ -1,11 +1,51 @@
 .footer {
-    padding: 0 10%;
+    .flex {
+        padding: 2rem 12%;
+        flex-wrap: wrap;
+    }
+
+    .svg {
+        margin-right: 4rem;
+    }
 
     .links {
         flex: 0 0 70%;
         margin-left: auto;
         display: inline-grid;
-        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-        grid-gap: 0;
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        grid-gap: 10px;
+
+        h6 {
+            color: #454545;
+            font-weight: 700;
+            line-height: 1.28571429;
+            letter-spacing: normal;
+            font-size: .875rem;
+        }
+
+        li {
+            color: #696969;
+            padding: .55rem 0;
+            font-weight: 400;
+            line-height: 1.28571429;
+            letter-spacing: normal;
+            font-size: .875rem;
+        }
     }
+
+    
+}
+
+@media only screen and (max-width: 900px) {
+    .footer {
+        .flex {
+            padding: 2rem 5%;
+            flex-direction: column;
+        }
+
+        .links {
+            flex: 0;
+            margin: 4rem 0;
+        }
+    } 
 }
