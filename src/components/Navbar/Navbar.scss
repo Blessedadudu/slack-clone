@@ -4,6 +4,9 @@
     justify-content: space-between;
     color: #1d1d1d;
     white-space: nowrap;
+    position: fixed;
+    z-index: 999;
+    width: 100%;
 
     img {
         width: 125px;
@@ -11,7 +14,7 @@
     }
 
     li {
-        padding: 0 1rem;
+        padding: 10px 1rem;
         cursor: pointer;
     }
 

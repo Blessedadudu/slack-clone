@@ -10,7 +10,7 @@ function Nabar() {
                     <h2>X</h2>
                 </div>
                 <div className='flex flex-column flex--icon-2'>
-                    <ul>
+                    <ul className='main-nav'>
                         <li>Why Slack?</li>
                         <li>Solution</li>
                         <li>Resources</li>
