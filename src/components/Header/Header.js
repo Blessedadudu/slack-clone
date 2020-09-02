@@ -19,7 +19,7 @@ function Header() {
 
             <div className='header--flex header--flex-2'>
                 <div className='video-2'>
-                    <video autoplay='true' loop='true' muted='true' playsinline>
+                    <video autoplay='true' loop='true' muted='true' playsinline poster="https://a.slack-edge.com/9b527/marketing/img/homepage/hp-prospect/channels/image/bring-your-team-together-in-channels.jpg">
                         <source src="https://a.slack-edge.com/5f6f2/marketing/img/homepage/hp-prospect/channels/bring-your-team-together-in-channels.mp4" type="video/mp4"/>
                     </video>
                 </div>

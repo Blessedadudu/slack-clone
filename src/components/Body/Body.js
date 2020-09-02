@@ -18,7 +18,16 @@ function Body() {
                     <p>Head Farmer, SingleThread</p>
                 </div>
                 <img src='https://a.slack-edge.com/ce67d/marketing/img/stories/singlethread/customer-story.png' alt='customer'/>
-
+               
+            </div>
+            <div className='flex flex-brands'>
+                <img src='https://a.slack-edge.com/ce67d/marketing/img/logos/company/_color/fox@2x.png' alt='brands'/>
+                <img src='https://a.slack-edge.com/ce67d/marketing/img/logos/company/_color/lonelyplanet@2x.png' alt='brands'/>
+                <img src='https://a.slack-edge.com/e2fa17/marketing/img/logos/company/_color/intuit@2x.png' alt='brands'/>
+                <img src='https://a.slack-edge.com/ce67d/marketing/img/logos/company/_color/carvana@2x.png' alt='brands'/>
+                <img src='https://a.slack-edge.com/ce67d/marketing/img/logos/company/_color/kiva@2x.png' alt='brands'/>
+                <img src='https://a.slack-edge.com/80588/marketing/img/logos/company/_color/target-logo@2x.png' alt='brands'/>
+                <img src='https://a.slack-edge.com/ce67d/marketing/img/logos/company/_color/devacurl@2x.png' alt='brands'/>
             </div>
         </div>
     )
