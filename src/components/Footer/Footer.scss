@@ -1,0 +1,11 @@
+.footer {
+    padding: 0 10%;
+
+    .links {
+        flex: 0 0 70%;
+        margin-left: auto;
+        display: inline-grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        grid-gap: 0;
+    }
+}
