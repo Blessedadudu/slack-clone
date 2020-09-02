@@ -11,7 +11,7 @@ function Header() {
                     <button>Try for free</button>
                 </div>
                 <div className='video'>
-                    <video autoplay='true' loop='true' muted='true' playsinline poster="https://a.slack-edge.com/5f6f2/marketing/img/homepage/hp-prospect/hero/hero-image@2x.png">
+                    <video autoPlay loop muted playsInline poster="https://a.slack-edge.com/5f6f2/marketing/img/homepage/hp-prospect/hero/hero-image@2x.png">
                         <source src="https://a.slack-edge.com/9b527/marketing/img/homepage/hp-prospect/hero/desktop/mp4/hero-image.mp4" type="video/mp4"/>
                     </video>
                 </div>
@@ -19,7 +19,7 @@ function Header() {
 
             <div className='header--flex header--flex-2'>
                 <div className='video-2'>
-                    <video autoplay='true' loop='true' muted='true' playsinline poster="https://a.slack-edge.com/9b527/marketing/img/homepage/hp-prospect/channels/image/bring-your-team-together-in-channels.jpg">
+                    <video autoPlay loop muted playsInline poster="https://a.slack-edge.com/9b527/marketing/img/homepage/hp-prospect/channels/image/bring-your-team-together-in-channels.jpg">
                         <source src="https://a.slack-edge.com/5f6f2/marketing/img/homepage/hp-prospect/channels/bring-your-team-together-in-channels.mp4" type="video/mp4"/>
                     </video>
                 </div>

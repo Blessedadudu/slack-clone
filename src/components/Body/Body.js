@@ -29,6 +29,13 @@ function Body() {
                 <img src='https://a.slack-edge.com/80588/marketing/img/logos/company/_color/target-logo@2x.png' alt='brands'/>
                 <img src='https://a.slack-edge.com/ce67d/marketing/img/logos/company/_color/devacurl@2x.png' alt='brands'/>
             </div>
+            <div className='better-work'>
+                <h1>Choose a better way to work</h1>
+                <div>
+                    <button>TRY FOR FREE</button>
+                    <button>CONTACT SALES</button>
+                </div>
+            </div>
         </div>
     )
 }
