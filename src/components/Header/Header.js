@@ -21,7 +21,7 @@ function Header() {
                 <div className='video-2'>
                     <video autoPlay loop muted playsInline poster="https://a.slack-edge.com/9b527/marketing/img/homepage/hp-prospect/channels/image/bring-your-team-together-in-channels.jpg">
                         <source src="https://a.slack-edge.com/5f6f2/marketing/img/homepage/hp-prospect/channels/bring-your-team-together-in-channels.mp4" type="video/mp4"/>
-                    </video>
+                    </video> 
                 </div>
                 <div className='welcome'>
                     <h1>A better way to communicate</h1>

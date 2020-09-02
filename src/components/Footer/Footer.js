@@ -6,7 +6,6 @@ import { FaTwitter } from "react-icons/fa";
 import { GrFacebook } from "react-icons/gr";
 import { ImYoutube } from "react-icons/im";
 import { ImLinkedin} from "react-icons/im";
-import { AiOutlineCopyright } from "react-icons/ai";
 
 
 
@@ -56,10 +55,7 @@ function Footer() {
                             <li>Customer Support</li>
                             <li>Human Resources</li>
                             <li>Project Management</li>
-                            <li>Media</li> 
                             <li>Financial Services</li>
-                            <li>Sales</li>
-                            <li>IT</li>
                         </ul>
                     </div>
                     <div>
@@ -68,7 +64,6 @@ function Footer() {
                             <li>Engineering</li>
                             <li>Financial Services</li>
                             <li>Sales</li>
-                            <li>IT</li>
                             <li>Marketing</li>
                             <li>Customer Support</li>
                             <li>Human Resources</li>

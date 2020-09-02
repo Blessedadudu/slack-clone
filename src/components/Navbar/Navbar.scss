@@ -13,7 +13,7 @@
         margin: 0 2rem 0 0;
     }
 
-    li {
+    li { 
         padding: 10px 1rem;
         cursor: pointer;
     }
@@ -136,7 +136,6 @@
 @media only screen and (max-width: 1200px) {
     .Navbar {
         padding: 1rem 2%;
-        background: rgb(194, 192, 192);
         
         .desktop-nav {
             display: none;
@@ -154,15 +153,40 @@
         }
 
         .toggle-nav {
-            background-color: teal;
             background-color: rgb(253, 253, 253);
             position: absolute;
             padding: 2rem 0;
-            // display: inline-flex;
+            margin-left: 100%;
+            display: inline-flex;
+            transition: all .3s linear;
 
             .flex--icon {
                 justify-content: space-between;
                 flex: 0 0 1vh;
+
+                h2 {
+                    position: relative;
+                    padding: 0 5% 0 0;
+                    cursor: pointer;
+
+                    &::after, &::before {
+                        content: '';
+                        width: 23px;
+                        height: 2px;
+                        position: absolute;
+                        background-color: #1d1d1d;
+                        top: -4px;
+                    }
+
+                    &::after {
+                        transform: rotate(45deg);
+                    }
+
+                    &::before {
+
+                        transform: rotate(135deg);
+                    }
+                }
 
                 &-2 {
                     flex: 1;
@@ -180,6 +204,12 @@
                     color:#1d1d1d;
                 }
             }
+        }
+
+        .showNav {
+            margin-left: 0rem;
+            display: inline-flex;
+            transition: all .3s linear;
         }
     }
 

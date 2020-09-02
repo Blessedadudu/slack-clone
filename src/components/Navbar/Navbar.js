@@ -1,13 +1,20 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './Navbar.scss'
 
 function Nabar() {
+    let [show, setShow] = useState(false)
+
+    let handleSideNav = () => {
+        let s = show
+        setShow (!s)
+    }
+
     return (
         <div className='Navbar flex-2'>
-            <div className='toggle-nav flex flex-column'>
+            <div className={`toggle-nav flex flex-column ${ show && 'showNav'}`}>
                 <div className='flex-2 flex--icon'>
                     <img src='https://a.slack-edge.com/4a5c4/marketing/img/icons/icon_slack.svg' alt='slack icon'/>
-                    <h2>X</h2>
+                    <h2 onClick={handleSideNav}></h2> 
                 </div>
                 <div className='flex flex-column flex--icon-2'>
                     <ul className='main-nav'>
@@ -62,10 +69,10 @@ function Nabar() {
                 </ul>
                 <button>Try for free</button>
             </div>
-            <div className='nav-burger'>
+            <div className='nav-burger' onClick={handleSideNav}>
                 <span className="iconz">&nbsp;</span>
             </div>
-           
+            
         </div>
     )
 }
