@@ -3,7 +3,7 @@ import './Body.scss'
 import { BsArrowRight } from "react-icons/bs";
 
 function Body() {
-    return (
+    return ( 
         <div className='body'>
             <div className='body-heading'>
                 <h1>Over 750,000 companies use Slack to get work done</h1>

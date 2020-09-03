@@ -12,7 +12,7 @@
             line-height: 1.1875;
             letter-spacing: -.8px;
         }
-
+ 
         p {
             display: inline-block;
             padding: 2rem 0 0;
@@ -145,5 +145,104 @@
         }
     }
     
+}
+
+@media only screen and (max-width: 768px) {
+    .body {
+        margin-bottom: 3rem;
+        &-heading {
+            text-align: left;
+            padding: 1rem 2% 1rem;
+
+    
+            h1 {
+                font-size: 2.125rem;
+                width: 100%;
+
+            }
+     
+            p {
+                font-size: 1.1rem;
+            }
+        }
+
+        .customer {
+            padding: 0 2% 4rem;
+            margin: 2rem 0  0;
+            flex-direction: column;
+            
+            h2 {
+                font-size: 1.3rem;
+                width: 100%;
+            }
+    
+            h4 {
+                font-weight: 700;
+                padding-bottom: .5rem;
+                font-size: 1.1rem;
+            }
+    
+            p {
+                font-weight: 400;
+                font-size: 1.1rem; 
+                padding-bottom: 2rem;
+            }
+
+            img {
+                width: 100%;
+            }
+        }
+
+
+        .flex-brands {
+            padding: 0 2%;
+            justify-content: flex-start;
+
+
+            img {
+                width: auto;
+                height: 2.1rem;
+                margin: 1rem 0;
+                padding: 0 2%;
+            }
+        }
+
+        .better-work {
+            text-align: center;
+            padding: 5rem 2%;
+            margin: 4rem 0 0;
+            
+            h1 {
+                font-weight: 600;
+                font-size: 2.2rem;
+                padding: 0 0 2rem;
+            }
+    
+            button {
+                cursor: pointer;
+                border-radius: 4px;
+                text-align: center;
+                font-weight: 700;
+                line-height: 1.28571429;
+                letter-spacing: .8px;
+                text-transform: uppercase;
+                text-decoration: none;
+                padding: 19px 40px 20px;
+                background-color: #fff;
+                color: #611f69;
+                display: inline-grid;
+                grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+                grid-gap: 30px 30px;
+                margin: 0 .5rem 1rem 0;
+                width: 100%;
+    
+                &:nth-child(2) {
+                    background-color: transparent;
+                    color: #fff;
+                    border: 1px solid #fff;
+                }
+            }
+        }
+    }
 }
 
