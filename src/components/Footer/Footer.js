@@ -9,7 +9,7 @@ import { ImLinkedin} from "react-icons/im";
 
 
 
-function Footer() {
+function Footer() { 
     return (
         <div className='footer'>
             <div  className='flex flex-svg'>
@@ -76,9 +76,11 @@ function Footer() {
            
             <div className='flex flex-status'>
                 <div className='flex status'>
-                    <p>Status</p>
-                    <p>Privacy & Terms</p>
-                    <p>Conatct US</p>
+                    <div>
+                        <p>Status</p>
+                        <p>Privacy & Terms</p>
+                        <p>Conatct US</p>
+                    </div>
                     <div className='flex icon'>
                         <FiGlobe/>
                         <p>Change Region</p>
