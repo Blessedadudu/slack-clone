@@ -63,6 +63,17 @@
                 border: 2px solid #611f69;
             } 
         }
+
+        .video {
+            &-2 {
+                video {
+                    position: absolute;
+                    width: 55%;
+                    bottom: -5rem;
+                    border-radius: 4px;
+                }
+            }
+        }
         
     }
 
@@ -70,15 +81,6 @@
         video {
             width: 100%;
             // pointer-events: none;
-        }
-
-        &-2 {
-            video {
-                position: absolute;
-                width: 55%;
-                bottom: -5rem;
-                border-radius: 4px;
-            }
         }
     }
     
@@ -113,21 +115,20 @@
                 margin-bottom: 3rem;
             }
         }
-        .video {
-            video {
-                width: 100%;
-                // pointer-events: none;
-            }
-    
-            &-2 {
-                video {
-                    position: absolute;
-                    width: 100%;
-                    top: 27rem;
-                    left: 0rem;
+
+        &--flex-2 {
+            .video {
+                &-2 {
+                    video {
+                        position: absolute;
+                        width: 100%;
+                        top: 50vh;
+                        left: 0rem;
+                        border-radius: 4px;
+                    }
                 }
             }
+            
         }
-    
     }
 }
