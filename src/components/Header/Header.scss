@@ -77,6 +77,7 @@
                 position: absolute;
                 width: 55%;
                 bottom: -5rem;
+                border-radius: 4px;
             }
         }
     }
@@ -87,7 +88,7 @@
 
 @media only screen and (max-width: 768px) {
     .header {
-        padding: 5rem 3% 0;
+        padding: 5rem 3% 16rem;
     
         &--flex {
             display: flex;
@@ -109,6 +110,21 @@
             button {
                 width: 100%;
                 margin-bottom: 3rem;
+            }
+        }
+        .video {
+            video {
+                width: 100%;
+                // pointer-events: none;
+            }
+    
+            &-2 {
+                video {
+                    position: absolute;
+                    width: 100%;
+                    top: 27rem;
+                    left: 0rem;
+                }
             }
         }
     
