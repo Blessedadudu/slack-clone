@@ -155,7 +155,7 @@
         .toggle-nav {
             background-color: rgb(253, 253, 253);
             position: absolute;
-            padding: 2rem 0;
+            padding: 2rem 2%;
             margin-left: 100%;
             display: inline-flex;
             transition: all .3s linear;
@@ -175,7 +175,7 @@
                         height: 2px;
                         position: absolute;
                         background-color: #1d1d1d;
-                        top: -4px;
+                        top: -5px;
                     }
 
                     &::after {
@@ -247,4 +247,8 @@
             }
         }
     }
+}
+
+@media only screen and (max-width: 768px) {
+
 }

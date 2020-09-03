@@ -14,7 +14,7 @@ function Nabar() {
             <div className={`toggle-nav flex flex-column ${ show && 'showNav'}`}>
                 <div className='flex-2 flex--icon'>
                     <img src='https://a.slack-edge.com/4a5c4/marketing/img/icons/icon_slack.svg' alt='slack icon'/>
-                    <h2 onClick={handleSideNav}></h2> 
+                    <h2 onClick={handleSideNav}>{}</h2> 
                 </div>
                 <div className='flex flex-column flex--icon-2'>
                     <ul className='main-nav'>

@@ -3,7 +3,7 @@
     padding: 5rem 10% 0;
     color: #1d1d1d;
     background-color: #f6f0e8;
-    margin-bottom: 8rem;
+    margin-bottom: 8rem; 
 
     &--flex {
         display: grid;
@@ -81,4 +81,36 @@
         }
     }
     
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    .header {
+        padding: 5rem 3% 0;
+    
+        &--flex {
+            display: flex;
+            flex-direction: column;
+        }
+        .welcome {
+            h1 {
+                font-size: 3rem;
+                margin-bottom: 2rem;
+                max-width: 30rem;
+            }
+    
+            p {
+                max-width: 27rem;
+                margin: 0 0 2rem;
+                font-size: 1.2rem;
+            }
+    
+            button {
+                width: 100%;
+                margin-bottom: 3rem;
+            }
+        }
+    
+    }
 }
